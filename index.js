@@ -52,13 +52,21 @@ const questions = [
         name: 'email',
         message: 'What is your email address?',
     },
-];
+]
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => err ? console.log(err) : console.log('Success!'));
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer
+    .prompt(questions)
+    .then((responses) => {
+        writeToFile('./README.md', generateMarkdown(responses))
+    })
+}
 
 // Function call to initialize app
 init();
