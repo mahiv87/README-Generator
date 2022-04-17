@@ -17,6 +17,12 @@ const questions = [
         message: 'Enter a short description of the project.',
     },
     {
+        type: 'checkbox',
+        name: 'technologies',
+        message: 'Which Technologies where used on the project? If a Technology is not listed, you can write it in on the generated README.md',
+        choices: ['HTML5', 'CSS3', 'JavaScript', 'Node.js', 'Express.js', 'MySQL', 'jQuery', 'Bootstrap', 'Tailwind'],
+    },
+    {
         type: 'input',
         name: 'installation',
         message: 'How to install the project?',
