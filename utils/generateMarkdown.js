@@ -96,8 +96,18 @@ along with this program.  If not, see ${renderLicenseLink(license)}.`;
   return notice; 
 }
 
+// Function that renders each technology as a bullet point
+let stack = '';
+
+function renderTechSection(technologies) {
+  for (const tech of technologies){
+    stack += `- ${tech}\n`;
+  };
+}
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  renderTechSection(data.technologies);
   return `# ${data.title}
 
 ${renderLicenseBadge(data.license)}
@@ -118,7 +128,7 @@ ${data.description}
 
 ## Technologies
 
-${data.technologies}
+${stack}
 
 ## Installation
 
@@ -142,8 +152,9 @@ ${data.tests}
 
 ## Questions
 
-You can submit any questions to:
-[GitHub](https://github.com/${data.github})\n
+You can submit any questions to:\n
+[GitHub](https://github.com/${data.github})
+
 ${data.email}
 
 `

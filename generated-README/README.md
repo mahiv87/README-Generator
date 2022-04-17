@@ -1,4 +1,4 @@
-# Portfolio Generator
+# 
 
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
@@ -14,19 +14,23 @@
 
 ## Description
 
-An app that asks the user a series of questions about a project. Then uses the responses to generate a simple portfolio.
+
 
 ## Technologies
 
-HTML5,CSS3,JavaScript,Node.js,Tailwind
+- HTML5
+- CSS3
+- JavaScript
+- Node.js
+
 
 ## Installation
 
-To install, simply clone the repository
+
 
 ## Usage
 
-Make sure node.js is installed. Run "npm i inquirer" to install dependencies. Run "node index.js" in the root of the directory. Answer the questions. Your portfolio will be in "index.html"
+
 
 ## License
 
@@ -46,16 +50,17 @@ DEALINGS IN THE SOFTWARE. See more here [MIT](https://opensource.org/licenses/MI
 
 ## Contributing 
 
-Name and Github link
+
 
 ## Tests
 
-None
+
 
 ## Questions
 
 You can submit any questions to:
-[GitHub](https://github.com/mahiv87)
 
-maherreraiv1987@gmail.com
+[GitHub](https://github.com/)
+
+
 
