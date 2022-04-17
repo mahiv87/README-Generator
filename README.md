@@ -14,7 +14,9 @@
 
 ## Description
 
-Quickly and easily creates a README file by using a command-line app.
+[Link to video demonstration](https://drive.google.com/file/d/1w5qsovcxUB-BNCgD81K5ero3GThmLuEX/view?usp=sharing)
+
+README Generator quickly and easily creates a README file by using a command-line app.
 
 ## Technologies
 
