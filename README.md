@@ -30,7 +30,7 @@ To install, simply clone the repository
 
 ## Usage
 
-Run "npm i inquirer" to install dependencies. Then run "node index.js" to start the app.
+Run "npm install" to install inquirer package. Then run "node index.js" to start the app.
 
 ## License
 
